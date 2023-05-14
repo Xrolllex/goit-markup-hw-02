@@ -5,44 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework</title>
-    <link rel="stylesheet" href="style.css">
-    
+    <link rel="stylesheet" href="./css/style.css">
+   
+        
 </head>
 <body>
     <header>
+         <section class="logo">
+          <a href="#"><span class="web">Web</span>Studio</a>
+        </section>
         
-        <div class="logo">
-        <a href="#"><span>Web</span>Studio</a>
-                         
-        </div>
-
-        <div class="menu">
-        <nav>
+        <section class="nav-menu">
+          <nav>
         <menu>
-            <li><a href="#">Agencja</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Kontakt</a></li>
+            <a href="#">Agencja</a></li>
+            <a href="#">Portfolio</a></li>
+            <a href="#">Kontakt</a></li>
         </menu>
         </nav>
-        </div>
+        </section>
         
-        <div class="adresy">
+        <div class="address">
         <ul>
        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+48111111111">+48 111 111 111</a></li>
         
         </ul>
         </div>
-    
+     
     </header>
     
     <main>
         <section class="slider">
 
-        <h1>EFEKTYWNE ROZWIĄZANIE DLA WASZEGO BIZNESU</h1>
-        <div class="button" id="button">
-                <input type="button" value="Zamów usługe">
-        </div>
+        <h1>
+            <p>EFEKTYWNE ROZWIĄZANIA</p>
+            <p> DLA WASZEGO BIZNESU</p>
+        </h1>
+       
+                <input type="button" class="service-button" value="Zamów usługe">
+       
        
         </section>
 
@@ -64,35 +66,38 @@
         <section class="what-are-we-doing">
         
         <h2>Czym się zajmujemy</h2>
-            <ul>
-                <li><img src="images/box1.jpg" width="200" height="200" alt="Programowanie na laptopie"></li>
-                <li><img src="images/box2.jpg" width="200" height="200" alt="Programista używa telefonu przy laptopie"></li>
-                <li><img src="images/box3.jpg" width="200" height="200" alt="Programista używa tableta przy laptopie"></li>
-            </ul>
+            <div class="container">
+                <img src="images/box1.jpg" width="200" height="200" alt="Programowanie na laptopie"></li>
+                <img src="images/box2.jpg" width="200" height="200" alt="Programista używa telefonu przy laptopie"></li>
+                <img src="images/box3.jpg" width="200" height="200" alt="Programista używa tableta przy laptopie"></li>
+            </div>
 
         </section>
         <section class="our-team">
 
         <h2>Nasz zespół</h2>
-        <ul>
+           
+                    <ul>
             <li><img src="images/img(1).jpg" width="150" height="150" alt="Product Designer">
                 <p>John Doe</p>
                 <p>Product Designer</p>
             </li>
+            
             <li><img src="images/img.jpg" width="150" height="150" alt="Frontend Developer">
                 <p>John Doe</p>
                 <p>Frontend Developer</p>
             </li>
+
             <li><img src="images/img(2).jpg" width="150" height="150" alt="Marketing">
                 <p>John Doe</p>
                 <p>Marketing</p>
-            </li>
+                </li>
             <li><img src="images/img(3).jpg" width="150" height="150" alt="UI Designer">
                 <p>John Doe</p>
                 <p>UI Designer</p>
-            
             </li>
-        </ul>
+            </ul>
+        
 
     </section>
     
@@ -100,21 +105,23 @@
 
 <footer>
 
-    <div class="footer-logo">
+    <div class="footer-nav">
    
-    <a href="#"><span>Web</span>Studio</a>
+    <section class="logo">
+        <a href="#"><span class="web">Web</span>Studio</a>
+    </section>
 
-    </div>
+    
 
-    <address class='address'>
-    <ul>
-    <li><p>m. Warszawa, Aleje Jerozolimskie 21</p></li>
-    <li><a href="mailto:info@example.com">info@example.com</a></li>
-    <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+    <address class='contact'>
+   
+    <p class="local">m. Warszawa, Aleje Jerozolimskie 21</p>
+    <p><a href="mailto:info@example.com">info@example.com</a></p>
+    <p><a href="tel:+48111111111">+48 111 111 111</a></p>
 
-    </ul>
+
     </address>
-
+</div>
 
 </footer>
 

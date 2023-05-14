@@ -1,0 +1,107 @@
+:root {
+    --basic-color:#2196F3;
+    --second-color: #212121;
+    --background-one:#2F303A;
+    --background-two:#F5F4FA;
+    --contact-color: #757575;
+}
+
+a {
+    text-decoration: none;
+   color: var(--second-color)
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+body {
+    font-family: Roboto;
+    background-color:#FFFFFF;
+    font-size: 14;
+}
+
+.menu {
+      color:var(--second-color)
+
+}
+
+.nav-menu :hover {
+    color: var(--basic-color)
+}
+
+.logo {
+    color: var(--second-color);
+    font-size: 26px;
+    padding: 15px 15px 0px 65px;
+    font-weight: bold;
+    font-family: Raleway;
+}
+
+
+.web {
+    color: var(--basic-color);
+    
+}
+
+.contact > .local {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-style: italic;
+
+}
+
+.slider {
+    text-align: center;
+    background-color: var(--background-one);
+    color: #fff;
+    padding: 1%;
+   
+
+}
+
+.service-button {
+        background-color: var(--basic-color);
+        color: #fff;
+        cursor: pointer;
+        padding: 15px;
+        border: none;
+        border-radius: 3px;
+}
+
+
+
+.what-are-we-doing {
+    display: block;
+    text-align: center;
+    align-items: center;
+}
+
+
+.our-team {
+    background-color: var(--background-two);
+  text-align: center;
+}
+
+.footer-nav{
+    background-color: var(--background-one);
+    color: #FFFFFF;
+    
+}
+
+
+.categories {
+background-color: var(--background-two);
+    color: var(--second-color);
+    cursor: pointer;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+        
+}
+
+.service-categories .categories:hover {
+    background-color: var(--basic-color);
+    color: #FFFFFF;
+}
